@@ -1,0 +1,95 @@
+:root{
+    --cor-primaria: #fff;
+    --cor-titulo: #101828;
+    --cor-destaque: #8E2424;
+    --cor-texto: #667085;
+
+
+}
+
+body{
+    background-color: var(--cor-primaria);
+
+    & a{
+        color: var(--cor-destaque);
+
+
+    }
+
+
+
+
+    /* RESET CSS */
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+* {
+  margin: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+  }
+}
+
+body {
+
+  line-height: 1.5;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+
+#root, #__next {
+  isolation: isolate;
+}
+
+/* ESTILOS GERAIS */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+h1{
+    color: var(--cor-titulo);
+
+
+
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    
+
+
+}
